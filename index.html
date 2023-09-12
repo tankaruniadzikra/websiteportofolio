@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Article</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <div class="title">
+            <h3>Portofolio Article</h3>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Subcription</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- body text -->
+    <div class="container">
+        <!-- menggunakan fungsi article untuk membagi tulisan kanan dan kiri -->
+        <article>
+            <!-- Article pertama -->
+        <div class="article-one">
+            <img class="main-image" src="https://t-2.tstatic.net/medan/foto/bank/images/Monkey-D-Luffy-kapten-bajak-laut-topi-jerami-di-anime-One-Piece.jpg" alt="Image" width="700" height="400">
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>1 January 2023</p></br>
+            <!-- deskripsi untuk artikel pertama -->
+            <h4 class="description">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nisi quibusdam quas voluptatibus nulla. Odio ea aperiam beata repudiandae, iste modi quod excepturi corrupti et dicta quaerat, deserunt error optio</h4></br>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nisi quibusdam quas voluptatibus nulla. Odio ea aperiam beata repudiandae, iste modi quod excepturi corrupti et dicta quaerat, deserunt error optio</h4></br>
+            </h4>
+            <!-- Fungsi read more untuk artikel pertama -->
+            <div class="read-more">
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <!-- Artikel kedua -->
+        <div class="article-two">
+            <img class="main-image" src="https://pict.sindonews.net/dyn/850/pena/news/2023/08/06/700/1169469/9-fakta-gear-5-luffy-yang-ngehype-di-one-piece-episode-1071-fpc.jpg" alt="Image" width="700" height="400">
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>1 January 2023</p></br>
+            <!-- deskripsi untuk artikel kedua -->
+            <h4 class="description">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nisi quibusdam quas voluptatibus nulla. Odio ea aperiam beata repudiandae, iste modi quod excepturi corrupti et dicta quaerat, deserunt error optio</h4></br>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nisi quibusdam quas voluptatibus nulla. Odio ea aperiam beata repudiandae, iste modi quod excepturi corrupti et dicta quaerat, deserunt error optio</h4></br>
+            </h4>
+            <!-- Fungsi read more untuk artikel kedua -->
+            <div class="read-more">
+                <a href="#">Read More</a>
+            </div>
+        </div>  
+        </article>
+
+        <!-- menggunakan fungsi aside untuk membagi tulisan kanan dan kiri -->
+        <aside>
+            <!-- Judul menu untuk aside -->
+            <h3>Weekly Trending</h3>
+            <!-- Deskripsi untuk aside pertama -->
+            <h3 class="description">Lorem ipsum dolor sit amet.</h3><br>
+            <div class="text-description">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque rem atque ut. Similique, officia quam? ...</h4><br>
+                <!-- Fungsi read more untuk aside pertama -->
+                <div class="read-more">
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- Deskripsi untuk aside kedua -->
+            <h3 class="description">Lorem ipsum dolor sit amet.</h3><br>
+            <div class="text-description">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque rem atque ut. Similique, officia quam? ...</h4><br>
+                <!-- Fungsi read more untuk aside -->
+                <div class="read-more">
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- Deskripsi untuk aside ketiga -->
+            <h3 class="description">Lorem ipsum dolor sit amet.</h3><br>
+            <div class="text-description">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque rem atque ut. Similique, officia quam? ...</h4><br>
+                <!-- Fungsi read more untuk aside ketiga -->
+                <div class="read-more">
+                <a href="#">Read More</a>
+            </div>
+        </aside> 
+    </div>
+
+    <!-- menggunakan rectangle untuk membentuk shape seperti contoh soal -->
+    <div class="separator">
+        <!-- Judul menu untuk kategori artikel -->
+        <h1>Find Article by Category</h1>
+        <!-- Menu disertai link untuk kategori artikel -->
+        <a href="#" class="rectangle">Technology</a>
+        <a href="#" class="rectangle">Lifestyle</a>
+        <a href="#" class="rectangle">Health</a>
+        <a href="#" class="rectangle">Education</a>
+        <a href="#" class="rectangle">Finance</a>
+    </div> 
+
+    
+    <div class="separator">
+        <!-- Judul form -->
+        <h1>Fill the Form Bellow to Subsribe</h1>
+    </div>
+    <!-- Fungsi untuk input form -->
+    <div class="form-container">
+      <form action="#">
+        <label for="name"><strong>Name</strong></label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="text-input"
+          required
+        />
+
+        <!-- ------------------------------------ -->
+        <label for="email"><strong>Email</strong></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="text-input"
+          required
+        />
+        
+        <!-- ------------------------------------ -->
+        <input type="submit" name="submit"/>
+      </form>
+</div>
+
+<!-- fungsi footer -->
+    <footer> 
+        <h4>FTGO Challenge</h4>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* style untuk navigation bar */
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px 30px 10px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+/* style agar display menu layout menjadi sejajar secara horizontal. */
+.menu ul {
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.main-image {
+      max-width: 100%;
+      height: auto;
+}
+
+/* Mengambil 65% lebar dari suatu body untuk diisi artikel */
+article {
+  width:65%;
+  float:left;
+  padding:10px;
+}
+
+/* Mengambil 25% lebar dari suatu body untuk diisi aside */
+aside {
+  width:25%;
+  float:left;
+  padding:10px;
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+.article-two {
+padding-top: 40px;
+}
+
+.h3, .h4 {
+    line-height: 7px;
+}
+
+h1, h3 {
+  font-family: Verdana;
+  font-size: large;
+}
+
+h4 {
+  font-family: Verdana;
+  font-size: small;
+  font-weight: normal;
+}
+
+p {
+  color: #808080;
+}
+
+.description {
+padding-top: 10px;
+}
+
+.read-more a {
+    text-align: left;
+    color: black;
+    text-decoration: underline; 
+}
+
+.separator {
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* menggunakan rectangle untuk membentuk shape */
+.rectangle {
+    width: 145px;
+    border-radius: 10px;
+    float: left;
+    margin: 45px;
+    padding: 30px;
+    font-size:15pt;
+    text-align:center;
+    background-color: #808080;   
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  form {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="submit"] {
+    background-color: #202124;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 70rem;
+  }
+
+  label {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* menambahkan fungsi web responsive */
+@media (max-width: 321px) {
+  .container {
+    flex-direction: column;
+    padding: 5px;
+}
+.article-one, .article-two, .aside, .form-container  {
+    width: 100%;
+}
+}
